@@ -1,16 +1,16 @@
+import React from 'react'
 import './App.css'
-import { IconName } from "react-icons/fa6";
+
+const todo="Family calling";
 
 function App() {
   
-
-  return (
+return (
     <>
-      
       <h1>React Project Ready template</h1>
-     <IconName></IconName>
-    
-    </>
+      <h2>{todo}</h2>
+      <h1>{new Date().getFullYear()}</h1>
+     </>
   )
 }
 
